@@ -7,3 +7,4 @@ Homestead.json
 
 tests/_output/*
 /.env.testing
+/selenium-server-standalone-3.0.1.jar
