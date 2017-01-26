@@ -17,4 +17,10 @@ class CarController extends Controller
         return view('car.index', compact($cars));
     }
 
+    public function componentsample() {
+
+
+        return view('car.componentsample');
+    }
+
 }

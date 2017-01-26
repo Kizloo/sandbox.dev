@@ -51,6 +51,10 @@
 
 @section('vuecomponent')
     <script>
+
+
+
+
         Vue.component('task-list', {
             template: '<div><task v-for="task in tasks"> @{{ task.task }} </task></div>',
 

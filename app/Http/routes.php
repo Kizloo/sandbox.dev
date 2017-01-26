@@ -21,3 +21,5 @@ Route::get('/home', 'HomeController@index');
 
 
 Route::get('/cars', 'CarController@index');
+
+Route::get('/com', 'CarController@componentsample');
